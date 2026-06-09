@@ -1,0 +1,40 @@
+# Dependency directories
+node_modules/
+venv/
+.venv/
+env/
+
+# Build and deployment outputs
+.next/
+out/
+build/
+dist/
+*.tsbuildinfo
+
+# Environment variables (sensitive files)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+backend/.env
+
+# Python caching and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# IDEs and Editors
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
